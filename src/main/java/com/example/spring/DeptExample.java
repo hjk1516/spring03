@@ -9,6 +9,7 @@ public class DeptExample {
 		dept.setDname("개발부");	// Dname = 개발부로 초기화
 		dept.setLoc("서울");		// Loc = 서울로 초기화
 		
+		System.out.println(dept);
 		System.out.println(dept.getDeptno() + ", " + dept.getDname() + ", " +dept.getLoc());
 		
 	
